@@ -5,7 +5,7 @@ Expansion mod for Slay the Spire.
  * 3 Relics (1 ironclad, 1 silent, 1 defect)
  * 28 Cards (6 ironclad, 6 silent, 6 defect, 10 colorless)
  
- list of all new content can be find here in 👉 [wiki](https://github.com/RossHS/RossMod/wiki) 👈
+ list of all new content can be find here in 👉 [wiki](https://github.com/RossHS/RossMod/wiki) 👈 (так же есть вариант на русском языке)
 ### New mechanics, keywords and etc. ###
 * **Rise**: cards with this keyword will improve with every turn!
 * **Rorschach stain**: This is a special set of cards, each of the cards has a unique property, but all cards automatically play itself when drawn, then draw a card and Exhaust.
