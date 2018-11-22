@@ -1,0 +1,23 @@
+[
+  {
+    "NAMES": [
+      "block",
+      "blocks"
+    ],
+    "DESCRIPTION": "Until next turn, prevents damage."
+  },
+  {
+    "NAMES": [
+      "Rorschach stain",
+      "rorschach-stains",
+      "rorschach-stain"
+    ],
+    "DESCRIPTION": "This card automatically plays itself when drawn, then draw a card and Exhaust."
+  },
+  {
+    "NAMES": [
+      "rise"
+    ],
+    "DESCRIPTION": "This card improves with every turn."
+  }
+]

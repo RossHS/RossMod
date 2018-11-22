@@ -1,0 +1,35 @@
+{
+  "Tank Up!": {
+    "NAME": "Tank Up!",
+    "DESCRIPTIONS": [
+      "lose #r",
+      " #yStrength, NL give #g",
+      " #yDexterity."
+    ]
+  },
+  "Magic Armor": {
+    "NAME": "Magic Armor",
+    "DESCRIPTIONS": [
+      "add 1 of 3 random cards with the keyword #yBlock"
+    ]
+  },
+  "Rorschach's Journal": {
+    "NAME": "Rorschach's Journal",
+    "DESCRIPTIONS": [
+      "At the end of the turn, adds the #yRorschach-stain to the draw pile."
+    ]
+  },
+  "Eye-Opener": {
+    "NAME": "Eye-Opener",
+    "DESCRIPTIONS": [
+      "Until the end of the turn, all #yRorschach-stains added to the draw pile will be upgraded."
+    ]
+  },
+  "Energy Recover": {
+    "NAME": "Energy Recover",
+    "DESCRIPTIONS": [
+      "At the start of the turn, subtract #r",
+      " [E] ."
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Spiked Shield": {
+    "NAME": "Spiked Shield",
+    "FLAVOR": "Once belonged to the great hero of Azeroth.",
+    "DESCRIPTIONS": [
+      "Every time you play #b",
+      " cards with keyword #yBlock in a single turn, gain #b",
+      " #yStrength."
+    ]
+  },
+  "Lively Stain": {
+    "NAME": "Lively Stain",
+    "FLAVOR": "IT`S A LIVE!!!",
+    "DESCRIPTIONS": [
+      "Every time you play #b",
+      " #yRorschach-stains in a single turn, shuffle upgraded one more in your draw pile."
+    ]
+  },
+  "Type Casting": {
+    "NAME": "Type Casting",
+    "FLAVOR": "HP hp = (HP) focus;",
+    "DESCRIPTIONS": [
+      "At the end of the battle, restores the HP equal to the Focus number."
+    ]
+  }
+}

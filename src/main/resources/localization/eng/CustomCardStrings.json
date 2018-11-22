@@ -1,0 +1,138 @@
+{
+  "Doomsday": {
+    "NAME": "Doomsday",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Poison to ALL fighters. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D*! damage, other enemies take up to 20% of this damage. NL Apply !M! Poison to ALL fighters. NL Exhaust."
+  },
+  "Tank Up!": {
+    "NAME": "Tank Up!",
+    "DESCRIPTION": "At the start of your turn, NL lose 1 Strength, give !M! Dexterity."
+  },
+  "Reckless Flurry": {
+    "NAME": "Reckless Flurry",
+    "DESCRIPTION": "Deal damage to all enemies equal to your Block. You get !M! Frail. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": " NL (Deals !D! damage.)"
+  },
+  "Bolster": {
+    "NAME": "Bolster",
+    "DESCRIPTION": "Draw !M! cards from your deck with the keyword Block. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards from your deck with the keyword Block."
+  },
+  "In Search of Armor": {
+    "NAME": "In Search of Armor",
+    "DESCRIPTION": "Exhaust your hand, then get that many random cards with the keyword Block.",
+    "UPGRADE_DESCRIPTION": "Exhaust your hand, then get that many UPGRADED random cards with the keyword Block."
+  },
+  "Magic Armor": {
+    "NAME": "Magic Armor",
+    "DESCRIPTION": "At the start of your turn, you can add one of three random cards with the keyword Block into your hand.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, you can add one of three random cards with the keyword Block into your hand."
+  },
+  "Greedy Block": {
+    "NAME": "Greedy Block",
+    "DESCRIPTION": "The cost of all cards in hand is summed and the same Block is given.",
+    "UPGRADE_DESCRIPTION": "The cost (+1) of all cards in hand is summed and the same Block is given.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (You will get !B! Block.)"
+    ]
+  },
+  "Bag Of Gold": {
+    "NAME": "Bag Of Gold",
+    "EXTENDED_DESCRIPTION": [
+      "Gives from ",
+      " to ",
+      " Gold. NL Can be upgraded any number of times. NL Exhaust."
+    ]
+  },
+  "Rorschach Mask": {
+    "NAME": "Rorschach Mask",
+    "DESCRIPTION": "Shuffle !M! Rorschach-stains into your draw pile."
+  },
+  "Rorschach:Block": {
+    "NAME": "Rorschach Stain: block",
+    "DESCRIPTION": "Gain !B! Block. NL Draw 1 card. NL Exhaust."
+  },
+  "Rorschach:Card": {
+    "NAME": "Rorschach Stain: card",
+    "DESCRIPTION": "Draw !M! card. NL Exhaust."
+  },
+  "Rorschach:Damage": {
+    "NAME": "Rorschach Stain: damage",
+    "DESCRIPTION": "Deal !D! damage to random enemy. NL Draw 1 card. NL Exhaust."
+  },
+  "Rorschach:Energy": {
+    "NAME": "Rorschach Stain: energy",
+    "DESCRIPTION": "Gain [E]. NL Draw 1 card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain [E] [E]. NL Draw 1 card. NL Exhaust."
+  },
+  "Rorschach:Heal": {
+    "NAME": "Rorschach Stain: heal",
+    "DESCRIPTION": "Heal !M! HP. NL Draw 1 card. NL Exhaust."
+  },
+  "Rorschach:Poison": {
+    "NAME": "Rorschach Stain: poison",
+    "DESCRIPTION": "Apply !M! Poison. NL Draw 1 card. NL Exhaust."
+  },
+  "Rorschach:Vulnerable": {
+    "NAME": "Rorschach Stain: vulnerable",
+    "DESCRIPTION": "Apply !M! Vulnerable. NL Draw 1 card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Vulnerable. NL Draw 1 card. NL Exhaust."
+  },
+  "Rorschach:Weak": {
+    "NAME": "Rorschach Stain: weak",
+    "DESCRIPTION": "Apply !M! Weak. NL Draw 1 card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Weak. NL Draw 1 card. NL Exhaust."
+  },
+  "Rorschach:Pure": {
+    "NAME": "Rorschach Stain: pure",
+    "DESCRIPTION": "Exhaust all Status cards. NL Draw 1 card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Exhaust all Status and Curse cards. NL Draw 1 card. NL Exhaust."
+  },
+  "Fearful Symmetry": {
+    "NAME": "Fearful Symmetry",
+    "DESCRIPTION": "Double Rorschach-stains in the draw pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Triple Rorschach-stains in the draw pile. NL Exhaust."
+  },
+  "Rorschach's Journal": {
+    "NAME": "Rorschach's Journal",
+    "DESCRIPTION": "At the end of the turn, adds the  to the draw pile.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the end of the turn, adds the Rorschach-stain to the draw pile."
+  },
+  "Eye-Opener": {
+    "NAME": "Eye-Opener",
+    "DESCRIPTION": "Until the end of the turn, all Rorschach-stains added to the draw pile will be upgraded. NL Draw a card."
+  },
+  "Growing Stain": {
+    "NAME": "Growing Stain",
+    "DESCRIPTION": "Shuffle !M! Rorschach-stains. When played, permanently increase this card's Rorschach-stains by 1. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Shuffle !M! Rorschach-stains. When played, permanently increase this card's Rorschach-stains by 2. NL Exhaust."
+  },
+  "XAttack": {
+    "NAME": "Х-Attack",
+    "DESCRIPTION": "Rise - increase damage by !M!. NL Deal !D! damage."
+  },
+  "XBlock": {
+    "NAME": "Х-Block",
+    "DESCRIPTION": "Rise - increase Block by !M!. NL Gain !B! Block."
+  },
+  "Charging": {
+    "NAME": "Charging",
+    "DESCRIPTION": "Rise - decries cost by !M!. NL Add 3 random skills with 1, 2 and 3 [E] to your hand, at this turn they cost 0. NL Exhaust."
+  },
+  "Stay Focused": {
+    "NAME": "Stay Focused",
+    "DESCRIPTION": "You get Focus and slots for spheres equal to the number of yours [E]. Destroys them all, 1 [E] is restored with each turn.",
+    "UPGRADE_DESCRIPTION": "You get !M! Focus and !M! slots for spheres. Destroys all [E] , 1 [E] is restored with each turn."
+  },
+  "Supercharger": {
+    "NAME": "Supercharger",
+    "DESCRIPTION": "For each skill played on this turn, increases the Focus given by this card by 1.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (You will get !M! Focus.)"
+    ]
+  },
+  "Dream World": {
+    "NAME": "Dream World",
+    "DESCRIPTION": "Exhaust up to !M! cards in your hand, then add the same number of random cards into your hand, they cost 0 [E] this turn. NL Exhaust."
+  }
+}

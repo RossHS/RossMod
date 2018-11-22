@@ -1,0 +1,11 @@
+{
+  "modid": "RossMod",
+  "name": "RossMod",
+  "author_list": ["RossHS"],
+  "description": "Adds some custom cards and relics",
+  "version": "0.1.0",
+  "sts_version": "22-11-2018",
+  "mts_version": "3.6.0",
+  "dependencies": ["basemod"],
+  "update_json": ""
+}
