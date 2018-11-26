@@ -31,5 +31,13 @@
       "At the start of the turn, subtract #r",
       " [E] ."
     ]
+  },
+  "Secret Knowledge": {
+    "NAME": "Secret Knowledge",
+    "DESCRIPTIONS": [
+      "Prevent the next time you would lose HP. Restores HP twice the potential loss.",
+      "Prevent the next #b",
+      " times you would lose HP. Restores HP twice the potential loss."
+    ]
   }
 }

@@ -10,8 +10,10 @@ import com.khapilov.customcards.cards.blue.*;
 import com.khapilov.customcards.cards.colorless.*;
 import com.khapilov.customcards.cards.green.*;
 import com.khapilov.customcards.cards.red.*;
+import com.khapilov.customcards.events.thecity.ErichZannRoom;
 import com.khapilov.customcards.helpers.IncreaseStatsMarker;
 import com.khapilov.customcards.helpers.RiseKeyword;
+import com.khapilov.customcards.relics.ErichZannNotes;
 import com.khapilov.customcards.relics.LivelyStain;
 import com.khapilov.customcards.relics.SpikedShield;
 import com.khapilov.customcards.relics.TypeCasting;
@@ -71,6 +73,7 @@ public class RossMod implements PostExhaustSubscriber,
         BaseMod.addRelic(new SpikedShield(), RelicType.RED);
         BaseMod.addRelic(new LivelyStain(), RelicType.GREEN);
         BaseMod.addRelic(new TypeCasting(), RelicType.BLUE);
+        BaseMod.addRelic(new ErichZannNotes(), RelicType.SHARED);
     }
 
     @Override
@@ -142,7 +145,10 @@ public class RossMod implements PostExhaustSubscriber,
         String relicStrings = Gdx.files.internal(jsonPath + "CustomRelicStrings.json").readString(
                 String.valueOf(StandardCharsets.UTF_8));
         BaseMod.loadCustomStrings(RelicStrings.class, relicStrings);
-
+        // EventStrings
+        String eventStrings = Gdx.files.internal(jsonPath + "CustomEventStrings.json").readString(
+                String.valueOf(StandardCharsets.UTF_8));
+        BaseMod.loadCustomStrings(EventStrings.class, eventStrings);
     }
 
     @Override
@@ -174,8 +180,11 @@ public class RossMod implements PostExhaustSubscriber,
         for (AbstractCard card : tmpPool) {
             if (card.type == AbstractCard.CardType.POWER) bluePowerCardPool.addToTop(card);
         }
-
         keywordStrings = com.megacrit.cardcrawl.core.CardCrawlGame.languagePack.getKeywordString("Game Dictionary");
+
+        LOGGER.info("Load custom events...");
+
+        BaseMod.addEvent(ErichZannRoom.ID, ErichZannRoom.class,"TheCity");
     }
 
     private void buildRorschachCardPool() {

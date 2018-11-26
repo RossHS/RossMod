@@ -1,0 +1,15 @@
+{
+  "ErichZannRoom": {
+    "NAME": "Erich Zann's Room",
+    "DESCRIPTIONS": [
+      "Opening your eyes, you realize that you are in a dark and cold room, #r@indescribable@ #r@horror@ is churning you ... Looking closely, you notice that in the middle of the room is the corpse of an old man, a violin and Erich Zahn's #p~mysterious~ #p~recordings~ in German.",
+      "You pick up the notes, but suddenly feel the #r@scorchingly@ #r@cold@ #r@touch@ of something slippery. NL You scream in pain!"
+    ],
+    "OPTIONS": [
+      "[Take] #gErich #gZann's #gnotes. #rLose #r",
+      "% #rMax. #rHP.",
+      "[Leave] Leave everything in its place.",
+      "[Run away]"
+    ]
+  }
+}

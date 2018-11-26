@@ -22,5 +22,12 @@
     "DESCRIPTIONS": [
       "At the end of the battle, restores the HP equal to the Focus number."
     ]
+  },
+  "Erich Zann's Notes": {
+    "NAME": "Erich Zann's Notes",
+    "FLAVOR": "Revelations of a mad old man.",
+    "DESCRIPTIONS": [
+      "Prevent the next time you would lose HP. Restores HP twice the potential loss."
+    ]
   }
 }
