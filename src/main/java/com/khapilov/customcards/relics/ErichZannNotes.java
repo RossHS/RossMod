@@ -18,6 +18,11 @@ public class ErichZannNotes extends AbstractRelic {
     }
 
     @Override
+    public String getUpdatedDescription() {
+        return DESCRIPTIONS[0];
+    }
+
+    @Override
     public AbstractRelic makeCopy() {
         return new ErichZannNotes();
     }
