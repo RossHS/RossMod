@@ -8,20 +8,21 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.khapilov.customcards.cards.blue.*;
 import com.khapilov.customcards.cards.colorless.*;
+import com.khapilov.customcards.cards.curses.Nightmare;
 import com.khapilov.customcards.cards.green.*;
 import com.khapilov.customcards.cards.red.*;
+import com.khapilov.customcards.events.thebeyond.MadnessOutOfTheSea;
 import com.khapilov.customcards.events.thecity.ErichZannRoom;
 import com.khapilov.customcards.helpers.IncreaseStatsMarker;
 import com.khapilov.customcards.helpers.RiseKeyword;
-import com.khapilov.customcards.relics.ErichZannNotes;
-import com.khapilov.customcards.relics.LivelyStain;
-import com.khapilov.customcards.relics.SpikedShield;
-import com.khapilov.customcards.relics.TypeCasting;
+import com.khapilov.customcards.relics.*;
 import com.megacrit.cardcrawl.actions.GameActionManager;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.dungeons.TheBeyond;
+import com.megacrit.cardcrawl.dungeons.TheCity;
 import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
@@ -74,6 +75,7 @@ public class RossMod implements PostExhaustSubscriber,
         BaseMod.addRelic(new LivelyStain(), RelicType.GREEN);
         BaseMod.addRelic(new TypeCasting(), RelicType.BLUE);
         BaseMod.addRelic(new ErichZannNotes(), RelicType.SHARED);
+        BaseMod.addRelic(new CthulhuStatuette(), RelicType.SHARED);
     }
 
     @Override
@@ -110,6 +112,8 @@ public class RossMod implements PostExhaustSubscriber,
         addCardAndUnlock(new RorschachStainVulnerable());
         addCardAndUnlock(new RorschachStainWeak());
         addCardAndUnlock(new RorschachStainPure());
+        LOGGER.info("adding curses cards...");
+        addCardAndUnlock(new Nightmare());
     }
 
     private void addCardAndUnlock(AbstractCard card) {
@@ -184,7 +188,8 @@ public class RossMod implements PostExhaustSubscriber,
 
         LOGGER.info("Load custom events...");
 
-        BaseMod.addEvent(ErichZannRoom.ID, ErichZannRoom.class,"TheCity");
+        BaseMod.addEvent(ErichZannRoom.ID, ErichZannRoom.class, TheCity.ID);
+        BaseMod.addEvent(MadnessOutOfTheSea.ID, MadnessOutOfTheSea.class, TheBeyond.ID);
     }
 
     private void buildRorschachCardPool() {

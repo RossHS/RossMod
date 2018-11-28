@@ -134,5 +134,9 @@
   "Dream World": {
     "NAME": "Dream World",
     "DESCRIPTION": "Exhaust up to !M! cards in your hand, then add the same number of random cards into your hand, they cost 0 [E] this turn. NL Exhaust."
+  },
+  "Nightmare": {
+    "NAME": "Nightmare",
+    "DESCRIPTION": "At the end of the turn Exhaust the most expensive card in your hand."
   }
 }

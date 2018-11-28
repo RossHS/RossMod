@@ -13,7 +13,7 @@ import com.megacrit.cardcrawl.localization.EventStrings;
  */
 public class ErichZannRoom extends AbstractImageEvent {
 
-    public static final String ID = "ErichZannRoom";
+    public static final String ID = "Erich Zann's Room";
     private static final EventStrings eventStrings = CardCrawlGame.languagePack.getEventString(ID);
     public static final String NAME = eventStrings.NAME;
     public static final String[] DESCRIPTIONS = eventStrings.DESCRIPTIONS;
@@ -46,8 +46,10 @@ public class ErichZannRoom extends AbstractImageEvent {
                             AbstractDungeon.player.currentHealth = AbstractDungeon.player.maxHealth;
                         logMetricObtainRelicAndLoseMaxHP("Erich Zann's Room", "Erich Zann's Notes", relic, diff);
                         AbstractDungeon.getCurrRoom().spawnRelicAndObtain((float) (Settings.WIDTH / 2), (float) (Settings.HEIGHT / 2), relic);
+                        CardCrawlGame.sound.play("EVENT_TOME");
                         imageEventText.clearAllDialogs();
                         imageEventText.setDialogOption(OPTIONS[3]);
+                        CardCrawlGame.sound.play("VO_AWAKENEDONE_3");
                         break;
                     case 1:
                         this.imageEventText.clearRemainingOptions();

@@ -1,14 +1,26 @@
 {
-  "ErichZannRoom": {
+  "Erich Zann's Room": {
     "NAME": "Erich Zann's Room",
     "DESCRIPTIONS": [
       "Opening your eyes, you realize that you are in a dark and cold room, #r@indescribable@ #r@horror@ is churning you ... Looking closely, you notice that in the middle of the room is the corpse of an old man, a violin and Erich Zahn's #p~mysterious~ #p~recordings~ in German.",
-      "You pick up the notes, but suddenly feel the #r@scorchingly@ #r@cold@ #r@touch@ of something slippery. NL You scream in pain!"
+      "You pick up the notes, but suddenly feel the #r@scorchingly@ #r@cold@ #r@touch@ of something slippery. You scream in pain!"
     ],
     "OPTIONS": [
       "[Take] #gErich #gZann's #gnotes. #rLose #r",
       "% #rMax. #rHP.",
       "[Leave] Leave everything in its place.",
+      "[Run away]"
+    ]
+  },
+  "Madness Out Of The Sea": {
+    "NAME": "Madness Out Of The Sea",
+    "DESCRIPTIONS": [
+      "In the middle of the dungeon, you notice a #r@dreadful@ #r@green@ #r@statuette...@ As you approach it, you hear a #r@frightening@ @whisper...@ #p~«Ph'nglui~ #p~mglw'nafh~ #p~Cthulhu~ #p~R'lyeh~ #p~wgah'nagl~ #p~fhtagn».~ NL NL What will you do?",
+      "Pick up the statuette, you hear a @loud roar@ !!! Run!"
+    ],
+    "OPTIONS": [
+      "[Take] #gmysterious #gstatuette.  #rCursed #r- #r3 #rNightmare.",
+      "[Leave] throw away the statuette.",
       "[Run away]"
     ]
   }

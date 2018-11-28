@@ -29,5 +29,12 @@
     "DESCRIPTIONS": [
       "Prevent the next time you would lose HP. Restores HP twice the potential loss."
     ]
+  },
+  "Cthulhu Statuette": {
+    "NAME": "Cthulhu Statuette",
+    "FLAVOR": "You have nightmares.",
+    "DESCRIPTIONS": [
+      "You recover 10% of the enemy's HP when he dies."
+    ]
   }
 }
