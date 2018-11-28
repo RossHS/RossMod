@@ -2,8 +2,9 @@
 Expansion mod for Slay the Spire. 
 
 ## Currently adds: ##
- * 3 Relics (1 ironclad, 1 silent, 1 defect)
- * 28 Cards (6 ironclad, 6 silent, 6 defect, 10 colorless)
+ * 5 Relics (1 ironclad, 1 silent, 1 defect, 2 event relic)
+ * 29 Cards (6 ironclad, 6 silent, 6 defect, 10 colorless, 1 curse)
+ * 2 Events (Lovecraft references 🦑)
  
  list of all new content can be find here in 👉 [wiki](https://github.com/RossHS/RossMod/wiki) 👈 (так же есть вариант на русском языке)
 ### New mechanics, keywords and etc. ###
