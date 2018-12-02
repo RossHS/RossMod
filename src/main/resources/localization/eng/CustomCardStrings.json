@@ -138,5 +138,9 @@
   "Nightmare": {
     "NAME": "Nightmare",
     "DESCRIPTION": "At the end of the turn Exhaust the most expensive card in your hand."
+  },
+  "Poisoned Armor": {
+    "NAME": "Poisoned Armor",
+    "DESCRIPTION": "Gain !B! Block. Whenever you are attacked this turn, apply !M! Poison to the attacker."
   }
 }

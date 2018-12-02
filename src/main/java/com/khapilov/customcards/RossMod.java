@@ -94,6 +94,7 @@ public class RossMod implements PostExhaustSubscriber,
         addCardAndUnlock(new RorschachsJournal());
         addCardAndUnlock(new EyeOpener());
         addCardAndUnlock(new GrowingStain());
+        addCardAndUnlock(new PoisonedArmor());
         LOGGER.info("adding cards for Defect...");
         addCardAndUnlock(new XAttack());
         addCardAndUnlock(new XBlock());
@@ -153,6 +154,10 @@ public class RossMod implements PostExhaustSubscriber,
         String eventStrings = Gdx.files.internal(jsonPath + "CustomEventStrings.json").readString(
                 String.valueOf(StandardCharsets.UTF_8));
         BaseMod.loadCustomStrings(EventStrings.class, eventStrings);
+        // MonsterStrings
+        String monsterStrings = Gdx.files.internal(jsonPath + "CustomMonsterStrings.json").readString(
+                String.valueOf(StandardCharsets.UTF_8));
+        BaseMod.loadCustomStrings(MonsterStrings.class, monsterStrings);
     }
 
     @Override
@@ -175,21 +180,41 @@ public class RossMod implements PostExhaustSubscriber,
 
     @Override
     public void receivePostInitialize() {
+        keywordStrings = com.megacrit.cardcrawl.core.CardCrawlGame.languagePack.getKeywordString("Game Dictionary");
+        loadCustomCardPools();
+        loadCustomEvents();
+        loadCustomMonsters();
+        loadCustomSounds();
+    }
+
+    private void loadCustomCardPools() {
         rorschachCardPool = new CardGroup(CardGroup.CardGroupType.CARD_POOL);
         buildRorschachCardPool();
-
         bluePowerCardPool = new CardGroup(CardGroup.CardGroupType.CARD_POOL);
         ArrayList<AbstractCard> tmpPool = new ArrayList<>();
         CardLibrary.addBlueCards(tmpPool);
         for (AbstractCard card : tmpPool) {
             if (card.type == AbstractCard.CardType.POWER) bluePowerCardPool.addToTop(card);
         }
-        keywordStrings = com.megacrit.cardcrawl.core.CardCrawlGame.languagePack.getKeywordString("Game Dictionary");
+    }
 
+    private void loadCustomEvents() {
         LOGGER.info("Load custom events...");
 
         BaseMod.addEvent(ErichZannRoom.ID, ErichZannRoom.class, TheCity.ID);
         BaseMod.addEvent(MadnessOutOfTheSea.ID, MadnessOutOfTheSea.class, TheBeyond.ID);
+    }
+
+    private void loadCustomMonsters() {
+
+    }
+
+    private void loadCustomSounds() {
+        addSound();
+    }
+
+    private static void addSound() {
+
     }
 
     private void buildRorschachCardPool() {

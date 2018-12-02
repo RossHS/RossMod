@@ -39,5 +39,12 @@
       "Prevent the next #b",
       " times you would lose HP. Restores HP twice the potential loss."
     ]
+  },
+  "Poisoned Armor": {
+    "NAME": "Poisoned Armor",
+    "DESCRIPTIONS": [
+      "apply #g",
+      " Poison to the attacker."
+    ]
   }
 }
