@@ -20,7 +20,7 @@ public class PoisonedArmor extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    private static final int BLOCK = 6;
+    private static final int BLOCK = 5;
     private static final int POISON = 3;
     private static final int COST = 1;
 
@@ -34,7 +34,7 @@ public class PoisonedArmor extends CustomCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeBlock(4);
+            upgradeBlock(3);
             upgradeMagicNumber(1);
         }
     }
