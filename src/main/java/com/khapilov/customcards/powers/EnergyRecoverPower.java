@@ -24,6 +24,8 @@ public class EnergyRecoverPower extends AbstractPower {
         owner = player;
         this.amount = amount;
         canGoNegative = true;
+        type = PowerType.DEBUFF;
+        updateDescription();
         img = ImageMaster.loadImage("powers/energyRecover.png");
     }
 

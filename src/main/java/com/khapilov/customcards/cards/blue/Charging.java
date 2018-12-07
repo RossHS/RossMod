@@ -25,7 +25,7 @@ public class Charging extends CustomCard implements RiseKeyword {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    private static final int COST = 10;
+    private static final int COST = 9;
     private static final int AMOUNT = 3;
 
     public Charging() {

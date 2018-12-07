@@ -15,6 +15,7 @@ import com.khapilov.customcards.events.thebeyond.MadnessOutOfTheSea;
 import com.khapilov.customcards.events.thecity.ErichZannRoom;
 import com.khapilov.customcards.helpers.IncreaseStatsMarker;
 import com.khapilov.customcards.helpers.RiseKeyword;
+import com.khapilov.customcards.monsters.ShubNiggurath;
 import com.khapilov.customcards.relics.*;
 import com.megacrit.cardcrawl.actions.GameActionManager;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -25,6 +26,9 @@ import com.megacrit.cardcrawl.dungeons.TheBeyond;
 import com.megacrit.cardcrawl.dungeons.TheCity;
 import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.localization.*;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.monsters.MonsterGroup;
+import com.megacrit.cardcrawl.monsters.MonsterInfo;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import org.apache.logging.log4j.LogManager;
@@ -206,7 +210,9 @@ public class RossMod implements PostExhaustSubscriber,
     }
 
     private void loadCustomMonsters() {
-
+//        BaseMod.addMonster(ShubNiggurath.ENCOUNTER_NAME, ShubNiggurath.ENCOUNTER_NAME, () -> new MonsterGroup(
+//                new AbstractMonster[]{new ShubNiggurath(-280.0f, 10.0f, false), new ShubNiggurath(80.0f, 30.0f, true)}));
+//        BaseMod.addMonsterEncounter(TheCity.ID, new MonsterInfo(ShubNiggurath.ENCOUNTER_NAME, 5.0f));
     }
 
     private void loadCustomSounds() {
