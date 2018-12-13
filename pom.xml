@@ -6,7 +6,7 @@
 
     <groupId>RossMod</groupId>
     <artifactId>RossMod</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.4</version>
     <packaging>jar</packaging>
 
     <name>RossMod</name>
