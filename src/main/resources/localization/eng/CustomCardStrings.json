@@ -147,5 +147,9 @@
     "NAME": "Turtle Shell",
     "DESCRIPTION": "Lose 2 HP. Gain !M! Plated Armor. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Lose 2 HP. Gain !M! Plated Armor. NL Exhaust."
+  },
+  "Execute": {
+    "NAME": "Execute",
+    "DESCRIPTION": "Deal !D! damage. NL If this kills a enemy, gain !M! Strength."
   }
 }

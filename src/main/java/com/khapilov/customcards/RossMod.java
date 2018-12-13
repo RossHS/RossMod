@@ -91,6 +91,8 @@ public class RossMod implements PostExhaustSubscriber,
         addCardAndUnlock(new InSearchOfArmor());
         addCardAndUnlock(new MagicArmor());
         addCardAndUnlock(new GreedyBlock());
+        //addCardAndUnlock(new TurtleShell());
+        addCardAndUnlock(new Execute());
         LOGGER.info("adding cards for Silent...");
         addCardAndUnlock(new Doomsday());
         addCardAndUnlock(new RorschachMask());
