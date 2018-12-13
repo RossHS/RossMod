@@ -142,5 +142,10 @@
   "Poisoned Armor": {
     "NAME": "Poisoned Armor",
     "DESCRIPTION": "Gain !B! Block. Whenever you are attacked this turn, apply !M! Poison to the attacker."
+  },
+  "Turtle Shell": {
+    "NAME": "Turtle Shell",
+    "DESCRIPTION": "Lose 2 HP. Gain !M! Plated Armor. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Lose 2 HP. Gain !M! Plated Armor. NL Exhaust."
   }
 }
