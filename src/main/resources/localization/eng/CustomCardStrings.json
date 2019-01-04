@@ -151,5 +151,10 @@
   "Execute": {
     "NAME": "Execute",
     "DESCRIPTION": "Deal !D! damage. NL If this kills a enemy, gain !M! Strength."
+  },
+  "Research Project": {
+    "NAME": "Research Project",
+    "DESCRIPTION": "Gain 1 Orb slot. NL Channel !M! Frost.",
+    "UPGRADE_DESCRIPTION": "Gain 1 Orb slot. NL Channel !M! Frost."
   }
 }

@@ -104,6 +104,7 @@ public class RossMod implements PostExhaustSubscriber,
         addCardAndUnlock(new StayFocused());
         addCardAndUnlock(new Supercharger());
         addCardAndUnlock(new DreamWorld());
+        addCardAndUnlock(new ResearchProject());
         LOGGER.info("adding colorless cards...");
         addCardAndUnlock(new BagOfGold(0));
         addCardAndUnlock(new RorschachStainBlock());
